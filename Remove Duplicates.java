@@ -1,11 +1,9 @@
 // https://www.codechef.com/practice/course/two-pointers/POINTERF/problems/PREP69?tab=statement
 
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
-class Codechef
-{
+
+class Codechef{
     static int removeDuplicate(int[] nums){
         if (nums.length == 0) return 0;
         
@@ -40,6 +38,7 @@ class Codechef
 		    }
 		    System.out.println();
 		}
+		sc.close();
 
 	}
 }
